@@ -3,7 +3,7 @@ plugins {
 }
 
 // Set as appropriate for your organization
-group = "com.yourorg"
+group = "com.luizleiteoliveira"
 description = "Rewrite recipes."
 
 dependencies {
