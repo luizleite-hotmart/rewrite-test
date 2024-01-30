@@ -1,0 +1,11 @@
+name: rewrite validation
+on:
+  push:
+    branches-ignore:
+      - main
+      - master
+      - staging
+
+jobs:
+  validate:
+    uses: luizleiteoliveira/tutorials/blob/main/.github/workflows/openrewrite_update_latest.yml
