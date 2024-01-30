@@ -1,10 +1,9 @@
 name: rewrite validation
 on:
   push:
-    branches-ignore:
-      - main
-      - master
-      - staging
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
   validate:
