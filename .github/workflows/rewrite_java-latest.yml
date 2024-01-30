@@ -8,4 +8,4 @@ on:
 
 jobs:
   validate:
-    uses: luizleiteoliveira/tutorials/blob/main/.github/workflows/openrewrite_update_latest.yml@master
+    uses: luizleiteoliveira/tutorials/.github/workflows/openrewrite_update_latest.yml@master
