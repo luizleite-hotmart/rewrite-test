@@ -6,5 +6,5 @@ on:
     branches: [ "main" , "master"]
 
 jobs:
-  validate:
+  check-updates:
     uses: luizleiteoliveira/tutorials/.github/workflows/openrewrite_update_latest.yml@main
