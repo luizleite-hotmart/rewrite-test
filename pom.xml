@@ -46,7 +46,7 @@
 				<version>5.21.0</version>
 				<configuration>
 					<activeRecipes>
-						<recipe>com.luizleiteoliveira.BestModuleReceipt</recipe>
+						<recipe>com.luizleiteoliveira.BestModuleRecipe</recipe>
 					</activeRecipes>
 				</configuration>
 				<dependencies>

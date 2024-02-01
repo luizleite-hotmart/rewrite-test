@@ -1,0 +1,22 @@
+diff --git a/pom.xml b/pom.xml
+index b3d9ada..ff7dbf9 100644
+--- a/pom.xml
++++ b/pom.xml
+@@ -5,7 +5,7 @@ org.openrewrite.config.CompositeRecipe
+ 	<parent>
+ 		<groupId>org.springframework.boot</groupId>
+ 		<artifactId>spring-boot-starter-parent</artifactId>
+-		<version>2.7.14</version>
++		<version>3.2.2</version>
+ 		<relativePath/> <!-- lookup parent from repository -->
+ 	</parent>
+ 	<groupId>com.luizleiteoliveira</groupId>
+
+diff --git a/src/main/resources/application.properties b/src/main/resources/application.properties
+index 8b13789..459b2b7 100644
+--- a/src/main/resources/application.properties
++++ b/src/main/resources/application.properties
+@@ -1 +1 @@ org.openrewrite.config.CompositeRecipe
+-
++spring.threads.virtual.enabled=true
+
